@@ -1,0 +1,13 @@
+#main
+{
+    border-color: black;
+    border-bottom-width: 2px;
+    height: 30px;
+    width: 400px;
+    font-size: 26px;
+}
+
+#result
+{
+    font-size: 26px;
+}
