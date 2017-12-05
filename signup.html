@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;width: 100%;margin: 0">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="signup.css">
+
+</head>
+<body style="height: 100%;width: 100%;margin: 0">
+
+<div id="container">
+    <div id="head">
+        注册
+    </div>
+
+    <div id="main">
+        <div>
+            <span class="tip">用户名</span>
+            <input type="text" value="" id="user_name">
+        </div>
+        <div>
+            <span class="tip">密码</span>
+            <input type="password" value="" id="password">
+        </div>
+        <div>
+            <span class="tip">重复密码</span>
+            <input type="password" value="" id="re_password" onchange="password_check()">
+            <span id="wrong_password" class="wrong_tip"></span>
+        </div>
+        <div>
+            <span class="tip">电子邮箱</span>
+            <input type="email" value="" id="email">
+        </div>
+        <div>
+            <span class="tip">手机号码</span>
+            <input type="text" value="" id="phone_number" onchange="phone_number_check()">
+            <span id="wrong_phone_number" class="wrong_tip"></span>
+        </div>
+        <div>
+            <span class="tip">出生日期</span>
+            <input type="date" value="" id="birthday">
+        </div>
+        <div id="button_div">
+        <input type="button" id="button" value="注册">
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="signup.js"></script>
+</body>
+</html>
